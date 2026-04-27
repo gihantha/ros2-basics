@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-271688b4bee35f18089e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "my_first_pkg_interfaces__py",
+					"jsonFile" : "directory-my_first_pkg_interfaces__py-5ad6989e17e40057cbb0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/luscifer/ros2_ws/build/my_first_pkg_interfaces/my_first_pkg_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "my_first_pkg_interfaces__rs",
+					"jsonFile" : "directory-my_first_pkg_interfaces__rs-364cb0396c45308df125.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/luscifer/ros2_ws/build/my_first_pkg_interfaces/my_first_pkg_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "my_first_pkg_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_first_pkg_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_first_pkg_interfaces_egg-7cdbaf9b13f80d8d0008.json",
+					"name" : "ament_cmake_python_build_my_first_pkg_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_my_first_pkg_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_my_first_pkg_interfaces-09d7642ce5f8d6754b0c.json",
+					"name" : "ament_cmake_python_copy_my_first_pkg_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces-bd27dade7e19ab17af39.json",
+					"name" : "my_first_pkg_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces__cpp-d9cba83519416ae75f3b.json",
+					"name" : "my_first_pkg_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "my_first_pkg_interfaces__py::@96bfa36da04e3fabebf3",
+					"jsonFile" : "target-my_first_pkg_interfaces__py-51cd1e52431c855531a6.json",
+					"name" : "my_first_pkg_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces__rosidl_generator_c-e5781c6c615a425e37b5.json",
+					"name" : "my_first_pkg_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces__rosidl_generator_py-71bbf67a0a4547327dc9.json",
+					"name" : "my_first_pkg_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces__rosidl_generator_type_description-531ba2968e5467474d94.json",
+					"name" : "my_first_pkg_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces__rosidl_typesupport_c-63b5afb34722f0785d9e.json",
+					"name" : "my_first_pkg_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces__rosidl_typesupport_cpp-40bb35d468fd56958442.json",
+					"name" : "my_first_pkg_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces__rosidl_typesupport_fastrtps_c-f41dc58169f0b89356f8.json",
+					"name" : "my_first_pkg_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cpp-db14307b943ff7493c00.json",
+					"name" : "my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces__rosidl_typesupport_introspection_c-7546a7fb8c5b57444b5f.json",
+					"name" : "my_first_pkg_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces__rosidl_typesupport_introspection_cpp-49e5e8346d5780d6dd67.json",
+					"name" : "my_first_pkg_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "my_first_pkg_interfaces__rs::@305133c400e11fbfb037",
+					"jsonFile" : "target-my_first_pkg_interfaces__rs-dcc1a63871c31a608ab1.json",
+					"name" : "my_first_pkg_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces_s__rosidl_typesupport_c-fdc6c37483c796ca97d1.json",
+					"name" : "my_first_pkg_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces_s__rosidl_typesupport_fastrtps_c-71ef51a79ae6fe2f43b2.json",
+					"name" : "my_first_pkg_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces_s__rosidl_typesupport_introspection_c-f3b84f6331920fcc775e.json",
+					"name" : "my_first_pkg_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_pkg_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_pkg_interfaces_uninstall-2a613b1685a535b490fc.json",
+					"name" : "my_first_pkg_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c4bf4f4963b5d98693f4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/luscifer/ros2_ws/build/my_first_pkg_interfaces",
+		"source" : "/home/luscifer/ros2_ws/src/my_first_pkg_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,27 @@
+[4.715s] Invoking command in '/home/luscifer/ros2_ws/src/my_first_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/luscifer/ros2_ws/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages:/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages:/home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_pkg build --build-base /home/luscifer/ros2_ws/build/my_first_pkg/build install --record /home/luscifer/ros2_ws/build/my_first_pkg/install.log --single-version-externally-managed install_data
+[5.327s] running egg_info
+[5.385s] writing ../../build/my_first_pkg/my_first_pkg.egg-info/PKG-INFO
+[5.385s] writing dependency_links to ../../build/my_first_pkg/my_first_pkg.egg-info/dependency_links.txt
+[5.401s] writing entry points to ../../build/my_first_pkg/my_first_pkg.egg-info/entry_points.txt
+[5.405s] writing requirements to ../../build/my_first_pkg/my_first_pkg.egg-info/requires.txt
+[5.405s] writing top-level names to ../../build/my_first_pkg/my_first_pkg.egg-info/top_level.txt
+[5.531s] reading manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[5.536s] writing manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+[5.537s] running build
+[5.539s] running build_py
+[5.540s] copying my_first_pkg/my_service_client.py -> /home/luscifer/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg
+[5.540s] running install
+[5.558s] running install_lib
+[5.626s] copying /home/luscifer/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg/my_service_client.py -> /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg
+[5.627s] byte-compiling /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg/my_service_client.py to my_service_client.cpython-312.pyc
+[5.629s] running install_data
+[5.629s] running install_egg_info
+[5.690s] removing '/home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[5.691s] Copying ../../build/my_first_pkg/my_first_pkg.egg-info to /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info
+[5.694s] running install_scripts
+[6.015s] Installing my_node script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+[6.015s] Installing my_service_client script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+[6.018s] Installing my_service_server script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+[6.019s] Installing my_sub script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+[6.020s] writing list of installed files to '/home/luscifer/ros2_ws/build/my_first_pkg/install.log'
+[6.097s] Invoked command in '/home/luscifer/ros2_ws/src/my_first_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/luscifer/ros2_ws/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages:/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages:/home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_pkg build --build-base /home/luscifer/ros2_ws/build/my_first_pkg/build install --record /home/luscifer/ros2_ws/build/my_first_pkg/install.log --single-version-externally-managed install_data

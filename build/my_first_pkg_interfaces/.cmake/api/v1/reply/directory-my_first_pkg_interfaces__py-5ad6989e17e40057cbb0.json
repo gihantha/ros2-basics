@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "my_first_pkg_interfaces__py",
+		"source" : "/home/luscifer/ros2_ws/build/my_first_pkg_interfaces/my_first_pkg_interfaces__py"
+	}
+}

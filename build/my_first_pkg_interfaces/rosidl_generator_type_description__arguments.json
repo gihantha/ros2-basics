@@ -1,0 +1,7 @@
+{
+  "package_name": "my_first_pkg_interfaces",
+  "output_dir": "/home/luscifer/ros2_ws/build/my_first_pkg_interfaces/rosidl_generator_type_description/my_first_pkg_interfaces",
+  "idl_tuples": [
+    "/home/luscifer/ros2_ws/build/my_first_pkg_interfaces/rosidl_adapter/my_first_pkg_interfaces:msg/MyData.idl"
+  ]
+}

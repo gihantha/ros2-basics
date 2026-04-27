@@ -1,0 +1,239 @@
+[0.036s] Invoking command in '/home/luscifer/ros2_ws/build/my_first_pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luscifer/ros2_ws/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luscifer/ros2_ws/src/my_first_pkg_interfaces -DCMAKE_INSTALL_PREFIX=/home/luscifer/ros2_ws/install/my_first_pkg_interfaces
+[0.201s] -- The C compiler identification is GNU 13.3.0
+[0.366s] -- The CXX compiler identification is GNU 13.3.0
+[0.428s] -- Detecting C compiler ABI info
+[0.705s] -- Detecting C compiler ABI info - done
+[0.729s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.730s] -- Detecting C compile features
+[0.731s] -- Detecting C compile features - done
+[0.768s] -- Detecting CXX compiler ABI info
+[1.092s] -- Detecting CXX compiler ABI info - done
+[1.114s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.115s] -- Detecting CXX compile features
+[1.117s] -- Detecting CXX compile features - done
+[1.124s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.487s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.701s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.716s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.933s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.943s] -- Found rosidl_default_runtime: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_runtime/cmake)
+[3.413s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.042s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.455s] -- Found PythonExtra: /usr/bin/python3  
+[7.964s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[8.114s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.132s] -- Configuring done (8.1s)
+[8.218s] -- Generating done (0.1s)
+[8.248s] -- Build files have been written to: /home/luscifer/ros2_ws/build/my_first_pkg_interfaces
+[8.264s] Invoked command in '/home/luscifer/ros2_ws/build/my_first_pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luscifer/ros2_ws/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luscifer/ros2_ws/src/my_first_pkg_interfaces -DCMAKE_INSTALL_PREFIX=/home/luscifer/ros2_ws/install/my_first_pkg_interfaces
+[8.269s] Invoking command in '/home/luscifer/ros2_ws/build/my_first_pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luscifer/ros2_ws/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luscifer/ros2_ws/build/my_first_pkg_interfaces -- -j4 -l4
+[8.442s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[8.468s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[8.493s] [  5%] Built target ament_cmake_python_copy_my_first_pkg_interfaces
+[8.948s] [  5%] Built target my_first_pkg_interfaces__rosidl_generator_type_description
+[9.037s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.086s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.218s] [ 11%] Built target my_first_pkg_interfaces__rs
+[9.470s] running egg_info
+[9.470s] creating my_first_pkg_interfaces.egg-info
+[9.470s] writing my_first_pkg_interfaces.egg-info/PKG-INFO
+[9.470s] writing dependency_links to my_first_pkg_interfaces.egg-info/dependency_links.txt
+[9.471s] writing top-level names to my_first_pkg_interfaces.egg-info/top_level.txt
+[9.471s] writing manifest file 'my_first_pkg_interfaces.egg-info/SOURCES.txt'
+[9.471s] reading manifest file 'my_first_pkg_interfaces.egg-info/SOURCES.txt'
+[9.471s] writing manifest file 'my_first_pkg_interfaces.egg-info/SOURCES.txt'
+[9.599s] [ 11%] Built target ament_cmake_python_build_my_first_pkg_interfaces_egg
+[10.019s] [ 11%] Built target my_first_pkg_interfaces__cpp
+[10.041s] [ 14%] [32mBuilding C object CMakeFiles/my_first_pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_first_pkg_interfaces/msg/detail/my_data__description.c.o[0m
+[10.042s] [ 17%] [32mBuilding C object CMakeFiles/my_first_pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_first_pkg_interfaces/msg/detail/my_data__type_support.c.o[0m
+[10.068s] [ 20%] [32mBuilding C object CMakeFiles/my_first_pkg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_first_pkg_interfaces/msg/detail/my_data__functions.c.o[0m
+[10.249s] [ 22%] [32m[1mLinking C shared library libmy_first_pkg_interfaces__rosidl_generator_c.so[0m
+[10.426s] [ 22%] Built target my_first_pkg_interfaces__rosidl_generator_c
+[10.485s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.488s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.490s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.494s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.177s] [ 37%] [32mBuilding CXX object CMakeFiles/my_first_pkg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_pkg_interfaces/msg/my_data__type_support.cpp.o[0m
+[11.278s] [ 40%] [32mBuilding CXX object CMakeFiles/my_first_pkg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_pkg_interfaces/msg/detail/my_data__type_support.cpp.o[0m
+[11.352s] [ 42%] [32mBuilding CXX object CMakeFiles/my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_pkg_interfaces/msg/detail/dds_fastrtps/my_data__type_support.cpp.o[0m
+[11.591s] [ 45%] [32mBuilding C object CMakeFiles/my_first_pkg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_pkg_interfaces/msg/detail/my_data__type_support.c.o[0m
+[11.733s] [ 48%] [32m[1mLinking C shared library libmy_first_pkg_interfaces__rosidl_typesupport_introspection_c.so[0m
+[11.938s] [ 48%] Built target my_first_pkg_interfaces__rosidl_typesupport_introspection_c
+[12.041s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.223s] [ 54%] [32m[1mLinking CXX shared library libmy_first_pkg_interfaces__rosidl_typesupport_cpp.so[0m
+[12.351s] [ 57%] [32m[1mLinking CXX shared library libmy_first_pkg_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.498s] [ 57%] Built target my_first_pkg_interfaces__rosidl_typesupport_cpp
+[12.559s] [ 60%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.752s] [ 60%] Built target my_first_pkg_interfaces__rosidl_typesupport_introspection_cpp
+[12.942s] [ 62%] [32mBuilding CXX object CMakeFiles/my_first_pkg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_pkg_interfaces/msg/detail/my_data__type_support_c.cpp.o[0m
+[13.056s] [ 65%] [32m[1mLinking CXX shared library libmy_first_pkg_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.351s] [ 68%] [32mBuilding CXX object CMakeFiles/my_first_pkg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_pkg_interfaces/msg/my_data__type_support.cpp.o[0m
+[13.356s] [ 68%] Built target my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.470s] [ 71%] [32m[1mLinking CXX shared library libmy_first_pkg_interfaces__rosidl_typesupport_c.so[0m
+[13.653s] [ 71%] Built target my_first_pkg_interfaces__rosidl_typesupport_c
+[14.106s] [ 74%] [32m[1mLinking CXX shared library libmy_first_pkg_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[14.313s] [ 74%] Built target my_first_pkg_interfaces__rosidl_typesupport_fastrtps_c
+[14.398s] [ 74%] Built target my_first_pkg_interfaces
+[14.483s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.963s] [ 77%] Built target my_first_pkg_interfaces__py
+[15.052s] [ 80%] [32mBuilding C object CMakeFiles/my_first_pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_first_pkg_interfaces/msg/_my_data_s.c.o[0m
+[15.459s] [ 82%] [32m[1mLinking C shared library libmy_first_pkg_interfaces__rosidl_generator_py.so[0m
+[15.619s] [ 82%] Built target my_first_pkg_interfaces__rosidl_generator_py
+[15.704s] [ 85%] [32mBuilding C object CMakeFiles/my_first_pkg_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_first_pkg_interfaces/_my_first_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.711s] [ 88%] [32mBuilding C object CMakeFiles/my_first_pkg_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_first_pkg_interfaces/_my_first_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.719s] [ 91%] [32mBuilding C object CMakeFiles/my_first_pkg_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_first_pkg_interfaces/_my_first_pkg_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[15.963s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[15.965s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[15.985s] [100%] [32m[1mLinking C shared module rosidl_generator_py/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_c.so[0m
+[16.103s] [100%] Built target my_first_pkg_interfaces_s__rosidl_typesupport_fastrtps_c
+[16.113s] [100%] Built target my_first_pkg_interfaces_s__rosidl_typesupport_introspection_c
+[16.141s] [100%] Built target my_first_pkg_interfaces_s__rosidl_typesupport_c
+[16.185s] Invoked command in '/home/luscifer/ros2_ws/build/my_first_pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luscifer/ros2_ws/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luscifer/ros2_ws/build/my_first_pkg_interfaces -- -j4 -l4
+[16.226s] Invoking command in '/home/luscifer/ros2_ws/build/my_first_pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luscifer/ros2_ws/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luscifer/ros2_ws/build/my_first_pkg_interfaces
+[16.252s] -- Install configuration: ""
+[16.253s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_first_pkg_interfaces
+[16.254s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/msg/MyData.json
+[16.254s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces
+[16.254s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg
+[16.254s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail
+[16.255s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__functions.c
+[16.255s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__functions.h
+[16.255s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__type_support.h
+[16.256s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__description.c
+[16.256s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__type_support.c
+[16.257s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__struct.h
+[16.257s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.257s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/my_data.h
+[16.258s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/library_path.sh
+[16.259s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/library_path.dsv
+[16.259s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_generator_c.so
+[16.260s] -- Set non-toolchain portion of runtime path of "/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_generator_c.so" to ""
+[16.260s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces
+[16.261s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg
+[16.261s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail
+[16.261s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__rosidl_typesupport_fastrtps_c.h
+[16.261s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.261s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.262s] -- Set non-toolchain portion of runtime path of "/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[16.263s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces
+[16.263s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg
+[16.263s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail
+[16.263s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__rosidl_typesupport_introspection_c.h
+[16.263s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__type_support.c
+[16.264s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.265s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_introspection_c.so
+[16.266s] -- Set non-toolchain portion of runtime path of "/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[16.266s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_c.so
+[16.267s] -- Set non-toolchain portion of runtime path of "/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_c.so" to ""
+[16.268s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces
+[16.268s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg
+[16.269s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail
+[16.269s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__builder.hpp
+[16.269s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__traits.hpp
+[16.270s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__type_support.hpp
+[16.271s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__struct.hpp
+[16.272s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.274s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/my_data.hpp
+[16.274s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces
+[16.274s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg
+[16.274s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.275s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail
+[16.275s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/dds_fastrtps
+[16.275s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__rosidl_typesupport_fastrtps_cpp.hpp
+[16.276s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.276s] -- Set non-toolchain portion of runtime path of "/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.276s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces
+[16.276s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg
+[16.276s] -- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail
+[16.277s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__rosidl_typesupport_introspection_cpp.hpp
+[16.277s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__type_support.cpp
+[16.277s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.277s] -- Set non-toolchain portion of runtime path of "/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[16.278s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_cpp.so
+[16.278s] -- Set non-toolchain portion of runtime path of "/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_cpp.so" to ""
+[16.279s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/pythonpath.sh
+[16.279s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/pythonpath.dsv
+[16.281s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces-0.0.0-py3.12.egg-info
+[16.283s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[16.286s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[16.286s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[16.286s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[16.286s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces
+[16.286s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/__init__.py
+[16.287s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/_my_first_pkg_interfaces_s.ep.rosidl_typesupport_c.c
+[16.287s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/msg
+[16.287s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/msg/__init__.py
+[16.287s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/msg/_my_data_s.c
+[16.287s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/msg/_my_data.py
+[16.287s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/_my_first_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.287s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_c.so
+[16.287s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[16.287s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_introspection_c.so
+[16.287s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/_my_first_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[16.386s] Listing '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces'...
+[16.386s] Compiling '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/__init__.py'...
+[16.386s] Listing '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/msg'...
+[16.387s] Compiling '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/msg/__init__.py'...
+[16.389s] Compiling '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/msg/_my_data.py'...
+[16.403s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[16.404s] -- Set non-toolchain portion of runtime path of "/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[16.405s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_introspection_c.so
+[16.406s] -- Set non-toolchain portion of runtime path of "/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[16.406s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_c.so
+[16.407s] -- Set non-toolchain portion of runtime path of "/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_c.so" to ""
+[16.407s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_generator_py.so
+[16.412s] -- Set non-toolchain portion of runtime path of "/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_generator_py.so" to ""
+[16.412s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/ament_index/resource_index/rust_packages/my_first_pkg_interfaces
+[16.412s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust
+[16.412s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/src
+[16.412s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/src/msg
+[16.413s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/src/msg/rmw.rs
+[16.413s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/src/msg.rs
+[16.413s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/src/lib.rs
+[16.413s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/build.rs
+[16.413s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/Cargo.toml
+[16.413s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/msg/MyData.idl
+[16.413s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/msg/MyData.msg
+[16.413s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/ament_index/resource_index/package_run_dependencies/my_first_pkg_interfaces
+[16.413s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/ament_index/resource_index/parent_prefix_path/my_first_pkg_interfaces
+[16.414s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/ament_prefix_path.sh
+[16.414s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/ament_prefix_path.dsv
+[16.414s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/path.sh
+[16.414s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/path.dsv
+[16.414s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/local_setup.bash
+[16.419s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/local_setup.sh
+[16.419s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/local_setup.zsh
+[16.420s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/local_setup.dsv
+[16.420s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/package.dsv
+[16.421s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/ament_index/resource_index/packages/my_first_pkg_interfaces
+[16.421s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_generator_cExport.cmake
+[16.421s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_generator_cExport-noconfig.cmake
+[16.421s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[16.421s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.421s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.421s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.421s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_cExport.cmake
+[16.422s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[16.422s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_generator_cppExport.cmake
+[16.422s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.422s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.423s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.424s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.425s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_cppExport.cmake
+[16.426s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[16.426s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_generator_pyExport.cmake
+[16.426s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[16.427s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.427s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.427s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.428s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.429s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.431s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.431s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.431s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfacesConfig.cmake
+[16.431s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfacesConfig-version.cmake
+[16.432s] -- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/package.xml
+[16.437s] Invoked command in '/home/luscifer/ros2_ws/build/my_first_pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luscifer/ros2_ws/install/my_first_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luscifer/ros2_ws/build/my_first_pkg_interfaces

@@ -1,0 +1,6 @@
+[console_scripts]
+my_node = my_first_pkg.my_node:main
+my_params = my_first_pkg.my_params:main
+my_service_client = my_first_pkg.my_service_client:main
+my_service_server = my_first_pkg.my_service_server:main
+my_sub = my_first_pkg.my_subscriber:main
