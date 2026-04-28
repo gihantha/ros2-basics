@@ -31,6 +31,8 @@ setup(
 	    'my_service_server = my_first_pkg.my_service_server:main',
 	    'my_service_client = my_first_pkg.my_service_client:main',
 	    'my_params = my_first_pkg.my_params:main',
+	    'sensor_node = my_first_pkg.sensor_node:main',
+	    'monitor_node = my_first_pkg.monitor_node:main',
         ],
     },
 )

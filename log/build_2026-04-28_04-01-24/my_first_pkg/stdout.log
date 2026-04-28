@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/my_first_pkg/my_first_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_first_pkg/my_first_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_first_pkg/my_first_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_first_pkg/my_first_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_first_pkg/my_first_pkg.egg-info/top_level.txt
+reading manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_first_pkg/sensor_node.py -> /home/luscifer/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg
+copying my_first_pkg/monitor_node.py -> /home/luscifer/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg
+running install
+running install_lib
+copying /home/luscifer/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg/sensor_node.py -> /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg
+copying /home/luscifer/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg/monitor_node.py -> /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg
+byte-compiling /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg/sensor_node.py to sensor_node.cpython-312.pyc
+byte-compiling /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg/monitor_node.py to monitor_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/my_first_pkg/my_first_pkg.egg-info to /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing monitor_node script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+Installing my_node script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+Installing my_params script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+Installing my_service_client script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+Installing my_service_server script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+Installing my_sub script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+Installing sensor_node script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg
+writing list of installed files to '/home/luscifer/ros2_ws/build/my_first_pkg/install.log'

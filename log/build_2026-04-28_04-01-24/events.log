@@ -1,0 +1,270 @@
+[0.000000] (-) TimerEvent: {}
+[0.004263] (my_first_pkg_interfaces) JobQueued: {'identifier': 'my_first_pkg_interfaces', 'dependencies': OrderedDict()}
+[0.004428] (my_first_pkg) JobQueued: {'identifier': 'my_first_pkg', 'dependencies': OrderedDict({'my_first_pkg_interfaces': '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces'})}
+[0.004473] (my_first_pkg_interfaces) JobStarted: {'identifier': 'my_first_pkg_interfaces'}
+[0.045208] (my_first_pkg_interfaces) JobProgress: {'identifier': 'my_first_pkg_interfaces', 'progress': 'cmake'}
+[0.052950] (my_first_pkg_interfaces) JobProgress: {'identifier': 'my_first_pkg_interfaces', 'progress': 'build'}
+[0.053056] (my_first_pkg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luscifer/ros2_ws/build/my_first_pkg_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/luscifer/ros2_ws/build/my_first_pkg_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'luscifer', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/luscifer', 'OLDPWD': '/home/luscifer', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1970', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/luscifer/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'luscifer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'luscifer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ROS:@/tmp/.ICE-unix/1923,unix/ROS:/tmp/.ICE-unix/1923', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/737af087_e827_4509_b508_77a7f698329a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3GJDO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.313', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/luscifer/ros2_ws/install/my_first_pkg:/home/luscifer/ros2_ws/install/my_first_pkg_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/luscifer/ros2_ws/build/my_first_pkg_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages:/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/luscifer/ros2_ws/install/my_first_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.100089] (-) TimerEvent: {}
+[0.201438] (-) TimerEvent: {}
+[0.300627] (my_first_pkg_interfaces) StdoutLine: {'line': b'[  2%] Built target my_first_pkg_interfaces__rs\n'}
+[0.302204] (my_first_pkg_interfaces) StdoutLine: {'line': b'[  5%] Built target my_first_pkg_interfaces__rosidl_generator_type_description\n'}
+[0.302433] (-) TimerEvent: {}
+[0.363772] (my_first_pkg_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_my_first_pkg_interfaces\n'}
+[0.410885] (-) TimerEvent: {}
+[0.418914] (my_first_pkg_interfaces) StdoutLine: {'line': b'[  8%] Built target my_first_pkg_interfaces__cpp\n'}
+[0.431988] (my_first_pkg_interfaces) StdoutLine: {'line': b'[ 22%] Built target my_first_pkg_interfaces__rosidl_generator_c\n'}
+[0.509798] (-) TimerEvent: {}
+[0.598664] (my_first_pkg_interfaces) StdoutLine: {'line': b'[ 31%] Built target my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.607274] (my_first_pkg_interfaces) StdoutLine: {'line': b'[ 40%] Built target my_first_pkg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.607622] (my_first_pkg_interfaces) StdoutLine: {'line': b'[ 48%] Built target my_first_pkg_interfaces__rosidl_typesupport_cpp\n'}
+[0.610930] (-) TimerEvent: {}
+[0.713125] (-) TimerEvent: {}
+[0.740047] (my_first_pkg_interfaces) StdoutLine: {'line': b'[ 57%] Built target my_first_pkg_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.751339] (my_first_pkg_interfaces) StdoutLine: {'line': b'[ 65%] Built target my_first_pkg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.765056] (my_first_pkg_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_first_pkg_interfaces__rosidl_typesupport_c\n'}
+[0.813680] (-) TimerEvent: {}
+[0.859840] (my_first_pkg_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_first_pkg_interfaces\n'}
+[0.914427] (-) TimerEvent: {}
+[0.951061] (my_first_pkg_interfaces) StdoutLine: {'line': b'[ 77%] Built target my_first_pkg_interfaces__py\n'}
+[1.016851] (-) TimerEvent: {}
+[1.082997] (my_first_pkg_interfaces) StdoutLine: {'line': b'[ 82%] Built target my_first_pkg_interfaces__rosidl_generator_py\n'}
+[1.117130] (-) TimerEvent: {}
+[1.223945] (-) TimerEvent: {}
+[1.323734] (my_first_pkg_interfaces) StdoutLine: {'line': b'[ 88%] Built target my_first_pkg_interfaces_s__rosidl_typesupport_c\n'}
+[1.324638] (-) TimerEvent: {}
+[1.348307] (my_first_pkg_interfaces) StdoutLine: {'line': b'[ 94%] Built target my_first_pkg_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[1.354040] (my_first_pkg_interfaces) StdoutLine: {'line': b'[100%] Built target my_first_pkg_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[1.424719] (-) TimerEvent: {}
+[1.525703] (-) TimerEvent: {}
+[1.570923] (my_first_pkg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.623765] (my_first_pkg_interfaces) StdoutLine: {'line': b'writing my_first_pkg_interfaces.egg-info/PKG-INFO\n'}
+[1.626595] (my_first_pkg_interfaces) StdoutLine: {'line': b'writing dependency_links to my_first_pkg_interfaces.egg-info/dependency_links.txt\n'}
+[1.626817] (-) TimerEvent: {}
+[1.629010] (my_first_pkg_interfaces) StdoutLine: {'line': b'writing top-level names to my_first_pkg_interfaces.egg-info/top_level.txt\n'}
+[1.727202] (-) TimerEvent: {}
+[1.791715] (my_first_pkg_interfaces) StdoutLine: {'line': b"reading manifest file 'my_first_pkg_interfaces.egg-info/SOURCES.txt'\n"}
+[1.797458] (my_first_pkg_interfaces) StdoutLine: {'line': b"writing manifest file 'my_first_pkg_interfaces.egg-info/SOURCES.txt'\n"}
+[1.827653] (-) TimerEvent: {}
+[1.870796] (my_first_pkg_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_my_first_pkg_interfaces_egg\n'}
+[1.903760] (my_first_pkg_interfaces) CommandEnded: {'returncode': 0}
+[1.908328] (my_first_pkg_interfaces) JobProgress: {'identifier': 'my_first_pkg_interfaces', 'progress': 'install'}
+[1.928097] (-) TimerEvent: {}
+[1.932300] (my_first_pkg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luscifer/ros2_ws/build/my_first_pkg_interfaces'], 'cwd': '/home/luscifer/ros2_ws/build/my_first_pkg_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'luscifer', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/luscifer', 'OLDPWD': '/home/luscifer', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1970', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/luscifer/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'luscifer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'luscifer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ROS:@/tmp/.ICE-unix/1923,unix/ROS:/tmp/.ICE-unix/1923', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/737af087_e827_4509_b508_77a7f698329a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3GJDO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.313', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/luscifer/ros2_ws/install/my_first_pkg:/home/luscifer/ros2_ws/install/my_first_pkg_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/luscifer/ros2_ws/build/my_first_pkg_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages:/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/luscifer/ros2_ws/install/my_first_pkg:/opt/ros/jazzy'}), 'shell': False}
+[1.958903] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.959190] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_first_pkg_interfaces\n'}
+[1.959942] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/msg/MyData.json\n'}
+[1.960153] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces\n'}
+[1.964854] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg\n'}
+[1.965990] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail\n'}
+[1.966150] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__functions.c\n'}
+[1.966257] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__functions.h\n'}
+[1.966361] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__type_support.h\n'}
+[1.966482] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__description.c\n'}
+[1.966585] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__type_support.c\n'}
+[1.966689] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__struct.h\n'}
+[1.966791] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.966893] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/my_data.h\n'}
+[1.967034] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/library_path.sh\n'}
+[1.967142] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/library_path.dsv\n'}
+[1.968768] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_generator_c.so\n'}
+[1.969713] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces\n'}
+[1.969925] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg\n'}
+[1.970130] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail\n'}
+[1.970263] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.970420] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.973286] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.974822] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces\n'}
+[1.975033] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg\n'}
+[1.975175] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail\n'}
+[1.975281] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__rosidl_typesupport_introspection_c.h\n'}
+[1.975388] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__type_support.c\n'}
+[1.975532] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.978140] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.982796] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_c.so\n'}
+[1.983684] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces\n'}
+[1.983845] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg\n'}
+[1.983962] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail\n'}
+[1.984074] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__builder.hpp\n'}
+[1.984178] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__traits.hpp\n'}
+[1.984629] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__type_support.hpp\n'}
+[1.984758] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__struct.hpp\n'}
+[1.984866] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.984974] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/my_data.hpp\n'}
+[1.985077] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces\n'}
+[1.985850] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg\n'}
+[1.985973] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.986090] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail\n'}
+[1.986196] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/dds_fastrtps\n'}
+[1.986765] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.987696] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.987865] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces\n'}
+[1.988056] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg\n'}
+[1.988188] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail\n'}
+[1.988299] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.988462] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/include/my_first_pkg_interfaces/my_first_pkg_interfaces/msg/detail/my_data__type_support.cpp\n'}
+[1.989284] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.991696] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.992184] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/pythonpath.sh\n'}
+[1.992419] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/pythonpath.dsv\n'}
+[1.992945] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces-0.0.0-py3.12.egg-info\n'}
+[1.993085] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[1.993463] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[1.993580] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[1.994089] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[1.994792] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces\n'}
+[1.994953] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/__init__.py\n'}
+[1.995090] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/_my_first_pkg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.995227] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/msg\n'}
+[1.995358] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/msg/__init__.py\n'}
+[1.995618] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/msg/_my_data_s.c\n'}
+[1.996427] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/msg/_my_data.py\n'}
+[1.997909] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/_my_first_pkg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.998038] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_c.so\n'}
+[1.998180] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.998303] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[1.998413] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/_my_first_pkg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.028687] (-) TimerEvent: {}
+[2.093690] (my_first_pkg_interfaces) StdoutLine: {'line': b"Listing '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces'...\n"}
+[2.094035] (my_first_pkg_interfaces) StdoutLine: {'line': b"Listing '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/msg'...\n"}
+[2.109800] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[2.112104] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[2.114927] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages/my_first_pkg_interfaces/my_first_pkg_interfaces_s__rosidl_typesupport_c.so\n'}
+[2.116931] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/libmy_first_pkg_interfaces__rosidl_generator_py.so\n'}
+[2.120266] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/ament_index/resource_index/rust_packages/my_first_pkg_interfaces\n'}
+[2.121035] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust\n'}
+[2.122030] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/src\n'}
+[2.122316] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/src/msg\n'}
+[2.122722] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/src/msg/rmw.rs\n'}
+[2.122876] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/src/msg.rs\n'}
+[2.122991] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/src/lib.rs\n'}
+[2.123183] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/build.rs\n'}
+[2.123299] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/rust/Cargo.toml\n'}
+[2.123407] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/msg/MyData.idl\n'}
+[2.123808] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/msg/MyData.msg\n'}
+[2.124309] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/ament_index/resource_index/package_run_dependencies/my_first_pkg_interfaces\n'}
+[2.124744] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/ament_index/resource_index/parent_prefix_path/my_first_pkg_interfaces\n'}
+[2.124865] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/ament_prefix_path.sh\n'}
+[2.124976] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.125131] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/path.sh\n'}
+[2.125249] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/environment/path.dsv\n'}
+[2.125709] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/local_setup.bash\n'}
+[2.125817] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/local_setup.sh\n'}
+[2.125923] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/local_setup.zsh\n'}
+[2.126025] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/local_setup.dsv\n'}
+[2.126236] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Installing: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/package.dsv\n'}
+[2.126384] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/ament_index/resource_index/packages/my_first_pkg_interfaces\n'}
+[2.126497] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.126606] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.126993] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.127182] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.129432] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.129691] (-) TimerEvent: {}
+[2.132027] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.133538] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.133754] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.138041] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.141485] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.142979] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.145079] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.145930] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.149302] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.151339] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.154052] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.154663] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/export_my_first_pkg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.155480] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.156692] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.156816] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.157021] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.157129] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.157252] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.157360] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.157459] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfacesConfig.cmake\n'}
+[2.157556] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/cmake/my_first_pkg_interfacesConfig-version.cmake\n'}
+[2.157652] (my_first_pkg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/luscifer/ros2_ws/install/my_first_pkg_interfaces/share/my_first_pkg_interfaces/package.xml\n'}
+[2.168085] (my_first_pkg_interfaces) CommandEnded: {'returncode': 0}
+[2.230790] (-) TimerEvent: {}
+[2.292366] (my_first_pkg_interfaces) JobEnded: {'identifier': 'my_first_pkg_interfaces', 'rc': 0}
+[2.294758] (my_first_pkg) JobStarted: {'identifier': 'my_first_pkg'}
+[2.331656] (-) TimerEvent: {}
+[2.433064] (-) TimerEvent: {}
+[2.535611] (-) TimerEvent: {}
+[2.636252] (-) TimerEvent: {}
+[2.737936] (-) TimerEvent: {}
+[2.838964] (-) TimerEvent: {}
+[2.939732] (-) TimerEvent: {}
+[3.041989] (-) TimerEvent: {}
+[3.143647] (-) TimerEvent: {}
+[3.245969] (-) TimerEvent: {}
+[3.348133] (-) TimerEvent: {}
+[3.449427] (-) TimerEvent: {}
+[3.549984] (-) TimerEvent: {}
+[3.651931] (-) TimerEvent: {}
+[3.752977] (-) TimerEvent: {}
+[3.854241] (-) TimerEvent: {}
+[3.955146] (-) TimerEvent: {}
+[4.057640] (-) TimerEvent: {}
+[4.158739] (-) TimerEvent: {}
+[4.259834] (-) TimerEvent: {}
+[4.361084] (-) TimerEvent: {}
+[4.462163] (-) TimerEvent: {}
+[4.563658] (-) TimerEvent: {}
+[4.667592] (-) TimerEvent: {}
+[4.769095] (-) TimerEvent: {}
+[4.870887] (-) TimerEvent: {}
+[4.971702] (-) TimerEvent: {}
+[5.072256] (-) TimerEvent: {}
+[5.173842] (-) TimerEvent: {}
+[5.275172] (-) TimerEvent: {}
+[5.377684] (-) TimerEvent: {}
+[5.478111] (-) TimerEvent: {}
+[5.578659] (-) TimerEvent: {}
+[5.681065] (-) TimerEvent: {}
+[5.730343] (my_first_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_first_pkg', 'build', '--build-base', '/home/luscifer/ros2_ws/build/my_first_pkg/build', 'install', '--record', '/home/luscifer/ros2_ws/build/my_first_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/luscifer/ros2_ws/src/my_first_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'luscifer', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/luscifer', 'OLDPWD': '/home/luscifer', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1970', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/luscifer/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'luscifer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'luscifer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ROS:@/tmp/.ICE-unix/1923,unix/ROS:/tmp/.ICE-unix/1923', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/737af087_e827_4509_b508_77a7f698329a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3GJDO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.313', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/luscifer/ros2_ws/install/my_first_pkg:/home/luscifer/ros2_ws/install/my_first_pkg_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/luscifer/ros2_ws/build/my_first_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/luscifer/ros2_ws/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages:/home/luscifer/ros2_ws/install/my_first_pkg_interfaces/lib/python3.12/site-packages:/home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/luscifer/ros2_ws/install/my_first_pkg_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.781658] (-) TimerEvent: {}
+[5.883781] (-) TimerEvent: {}
+[5.986727] (-) TimerEvent: {}
+[6.089165] (-) TimerEvent: {}
+[6.190648] (-) TimerEvent: {}
+[6.294132] (-) TimerEvent: {}
+[6.361146] (my_first_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.394608] (-) TimerEvent: {}
+[6.413306] (my_first_pkg) StdoutLine: {'line': b'writing ../../build/my_first_pkg/my_first_pkg.egg-info/PKG-INFO\n'}
+[6.416594] (my_first_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_first_pkg/my_first_pkg.egg-info/dependency_links.txt\n'}
+[6.418188] (my_first_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_first_pkg/my_first_pkg.egg-info/entry_points.txt\n'}
+[6.418809] (my_first_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_first_pkg/my_first_pkg.egg-info/requires.txt\n'}
+[6.419061] (my_first_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_first_pkg/my_first_pkg.egg-info/top_level.txt\n'}
+[6.494971] (-) TimerEvent: {}
+[6.542884] (my_first_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'\n"}
+[6.546203] (my_first_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'\n"}
+[6.547196] (my_first_pkg) StdoutLine: {'line': b'running build\n'}
+[6.547430] (my_first_pkg) StdoutLine: {'line': b'running build_py\n'}
+[6.548818] (my_first_pkg) StdoutLine: {'line': b'copying my_first_pkg/sensor_node.py -> /home/luscifer/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg\n'}
+[6.549317] (my_first_pkg) StdoutLine: {'line': b'copying my_first_pkg/monitor_node.py -> /home/luscifer/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg\n'}
+[6.551156] (my_first_pkg) StdoutLine: {'line': b'running install\n'}
+[6.564526] (my_first_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[6.595420] (-) TimerEvent: {}
+[6.619160] (my_first_pkg) StdoutLine: {'line': b'copying /home/luscifer/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg/sensor_node.py -> /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg\n'}
+[6.619761] (my_first_pkg) StdoutLine: {'line': b'copying /home/luscifer/ros2_ws/build/my_first_pkg/build/lib/my_first_pkg/monitor_node.py -> /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg\n'}
+[6.620676] (my_first_pkg) StdoutLine: {'line': b'byte-compiling /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg/sensor_node.py to sensor_node.cpython-312.pyc\n'}
+[6.621547] (my_first_pkg) StdoutLine: {'line': b'byte-compiling /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg/monitor_node.py to monitor_node.cpython-312.pyc\n'}
+[6.622879] (my_first_pkg) StdoutLine: {'line': b'running install_data\n'}
+[6.624037] (my_first_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.680636] (my_first_pkg) StdoutLine: {'line': b"removing '/home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[6.682758] (my_first_pkg) StdoutLine: {'line': b'Copying ../../build/my_first_pkg/my_first_pkg.egg-info to /home/luscifer/ros2_ws/install/my_first_pkg/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info\n'}
+[6.686161] (my_first_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[6.696387] (-) TimerEvent: {}
+[6.798033] (-) TimerEvent: {}
+[6.899188] (-) TimerEvent: {}
+[7.001680] (-) TimerEvent: {}
+[7.008177] (my_first_pkg) StdoutLine: {'line': b'Installing monitor_node script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg\n'}
+[7.010561] (my_first_pkg) StdoutLine: {'line': b'Installing my_node script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg\n'}
+[7.012063] (my_first_pkg) StdoutLine: {'line': b'Installing my_params script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg\n'}
+[7.012236] (my_first_pkg) StdoutLine: {'line': b'Installing my_service_client script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg\n'}
+[7.013257] (my_first_pkg) StdoutLine: {'line': b'Installing my_service_server script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg\n'}
+[7.013639] (my_first_pkg) StdoutLine: {'line': b'Installing my_sub script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg\n'}
+[7.013768] (my_first_pkg) StdoutLine: {'line': b'Installing sensor_node script to /home/luscifer/ros2_ws/install/my_first_pkg/lib/my_first_pkg\n'}
+[7.013904] (my_first_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/luscifer/ros2_ws/build/my_first_pkg/install.log'\n"}
+[7.079959] (my_first_pkg) CommandEnded: {'returncode': 0}
+[7.098075] (my_first_pkg) JobEnded: {'identifier': 'my_first_pkg', 'rc': 0}
+[7.100857] (-) EventReactorShutdown: {}
